@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  database: mycrowd_test_development
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: "root123"
+  host: localhost
+test:
+  adapter: postgresql
+  database: mycrowd_test_test
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: "root123"
+  host: localhost
